@@ -17,8 +17,11 @@ In Sprint 3, I have trained three classification (SVM, Random Forest, and Logist
  The SVM model was integrated into a Shiny webapp which I developed to automatically sort boardgames upon submission. The underlying MySQL database that this application uses, as well as the storage of the pdfs according to the prediction of the model,  are stored in a private  Azure portal. Due to security risks of leaking actual NDA protected material that is stored in this portal,  neither is currenly publically accessible, but I plan to address that. 
  
 ### Images of the App's UI
+#### Overall UI for Submission
 ![overall](https://github.com/Fehiroh/Sprint_3/blob/master/Files/figures/overallUI.PNG)
+#### Some of the Features that Assist in Data Entry
 ![browse](https://github.com/Fehiroh/Sprint_3/blob/master/Files/figures/Categories_and_mech_selection.PNG)
+Note: Not shown are the string cleaning and check functions in the Server Side that Assist with Data Integrity. 
 
 
 
