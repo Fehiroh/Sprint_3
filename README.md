@@ -9,7 +9,9 @@ In Sprint 3, I have trained three classification (SVM, Random Forest, and Logist
  The success of each model has also been evaluated after dimensional reduction using feature importance (which was calculated via Random Forest), with SVM being the most successsful by far, with a (sensitivity + specificity) /2 of 0.955. 
  The SVM model was integrated into a Shiny webapp which I developed to automatically sort submituion upon receival. The underlying MySQL database that this application uses, as well as the storage of the pdfs according to the prediction of the model,  are stored in a private  Azure portal. Neither is currenly publically accessible. 
  
-### Some pictures of the app's UI
+### Some pictures of the App's UI
+![overall](https://github.com/Fehiroh/Sprint_3/blob/master/Files/figures/overallUI.PNG)
+![browse]()
 
 ## Deliverables
 ### [Report](https://github.com/Fehiroh/Sprint_3/blob/master/sprint_3_report_actual.pdf)
@@ -38,6 +40,8 @@ libraries used throughout, presented alphabetically:
 
 ## Further Work
 1. Protecting the Data base from SQL injection. 
+2. Moving the Database to an Azure portal without any personal information.
+3. Uploading to Shiny
 
 
 
