@@ -1,21 +1,26 @@
 # Boardgame_rule_submission_Sprint_3
 
+![titlepage](https://github.com/Fehiroh/Sprint_3/blob/master/Files/figures/Wheat%20from%20Chaff_%20Catan-Style.png)
+
 For the repository information (what the folders are, what they contain), scroll down to the **Repository Layout** section
+
+## Deliverables
+### [Report](https://github.com/Fehiroh/Sprint_3/blob/master/sprint_3_report_actual.pdf)
+### [Slideshow](https://docs.google.com/presentation/d/1IjqS0c9IrSU9zLHhI3vR-Se-s4pI8rofXUI-NmjC4NY/edit?usp=sharing)
 
 ## Overview: Purpose, and Progress
 The purpose is to create a webapp that can sort board game rule submissions into those which are likely to be well received by the boardgame community versus those that aren't.
 
 In Sprint 3, I have trained three classification (SVM, Random Forest, and Logistic Regression) algorithms to predict whether a game is likely to be well received based on its mechanics, themes, and play conditions.
  The success of each model has also been evaluated after dimensional reduction using feature importance (which was calculated via Random Forest), with SVM being the most successsful by far, with a (sensitivity + specificity) /2 of 0.955. 
- The SVM model was integrated into a Shiny webapp which I developed to automatically sort submituion upon receival. The underlying MySQL database that this application uses, as well as the storage of the pdfs according to the prediction of the model,  are stored in a private  Azure portal. Neither is currenly publically accessible. 
+ ![evaluation](https://github.com/Fehiroh/Sprint_3/blob/master/Files/figures/Wheat%20from%20Chaff_%20Catan-Style%20(1).png)
+ The SVM model was integrated into a Shiny webapp which I developed to automatically sort boardgames upon submission. The underlying MySQL database that this application uses, as well as the storage of the pdfs according to the prediction of the model,  are stored in a private  Azure portal. Due to security risks of leaking actual NDA protected material that is stored in this portal,  neither is currenly publically accessible, but I plan to address that. 
  
-### Some pictures of the App's UI
+### Images of the App's UI
 ![overall](https://github.com/Fehiroh/Sprint_3/blob/master/Files/figures/overallUI.PNG)
-![browse]()
+![browse](https://github.com/Fehiroh/Sprint_3/blob/master/Files/figures/Categories_and_mech_selection.PNG)
 
-## Deliverables
-### [Report](https://github.com/Fehiroh/Sprint_3/blob/master/sprint_3_report_actual.pdf)
-### [Slideshow](https://docs.google.com/presentation/d/1IjqS0c9IrSU9zLHhI3vR-Se-s4pI8rofXUI-NmjC4NY/edit?usp=sharing)
+
 
 ## Requirements
 In order to run the R files contained in this repository, one needs to have R version 3.6.0 or greater installed. The necessary libraries will all 
