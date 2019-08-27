@@ -13,7 +13,7 @@ In Sprint 3, I have trained three classification (SVM, Random Forest, and Logist
 
 ## Deliverables
 ### Report: [report]
-### Slideshow: [slideshow]https://docs.google.com/presentation/d/1IjqS0c9IrSU9zLHhI3vR-Se-s4pI8rofXUI-NmjC4NY/edit?usp=sharing "here")
+### Slideshow: [here]https://docs.google.com/presentation/d/1IjqS0c9IrSU9zLHhI3vR-Se-s4pI8rofXUI-NmjC4NY/edit?usp=sharing)
 
 ## Requirements
 In order to run the R files contained in this repository, one needs to have R version 3.6.0 or greater installed. The necessary libraries will all 
